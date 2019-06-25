@@ -28,8 +28,7 @@ public class Datenuebertragung {
 		}
 		
 		System.out.println("\nLinkedList");
-		System.out.println(ill);
-		
+		System.out.println(ill);		
 
 	}
 
