@@ -12,6 +12,7 @@ public class Datenuebertragung {
 		il.add(2);
 		il.add(5);
 		il.add(4);
+		il.add(new Integer(10));
 		
 		System.out.println("ArrayList\n" + il);
 		
@@ -29,7 +30,13 @@ public class Datenuebertragung {
 		
 		System.out.println("\nLinkedList");
 		System.out.println(ill);		
-
+		
+		il.add(888);
+		il.add(7777);
+		ill.add(777);
+		il.remove(2);
+		ill.removeAll(il);
+		System.out.println(ill);	
+		System.out.println(il);
 	}
-
 }
